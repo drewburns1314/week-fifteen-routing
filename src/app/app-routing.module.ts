@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { CatComponent } from './cat/cat.component';
 
 const routes: Routes = [
-  { path: 'cat', component: CatComponent }
+  { path: 'cat/:catName', component: CatComponent }
 ];
 
 @NgModule({
